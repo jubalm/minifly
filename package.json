@@ -1,0 +1,28 @@
+{
+  "name": "minifly",
+  "version": "0.0.1",
+  "description": "Minify images on the fly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jubalm/minifly.git"
+  },
+  "main": "lib/minifly.js",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "imagemin": "^3.2.0",
+    "imagemin-mozjpeg": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "minify"
+  ],
+  "preferGlobal": "true",
+  "bin": {
+    "minifly": "lib/minifly.js"
+  },
+  "author": "Jubal Mabaquiao",
+  "license": "MIT"
+}
