@@ -9,19 +9,22 @@
   "main": "lib/minifly.js",
   "dependencies": {
     "commander": "^2.8.1",
-    "imagemin": "^3.2.0",
-    "imagemin-mozjpeg": "^5.1.0"
+    "imagemin-mozjpeg": "^5.1.0",
+    "vinyl-fs": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
   "scripts": {
-    "test": "test"
+    "test": "mocha test/test.js"
   },
   "keywords": [
-    "minify"
+    "minify, imagemin"
   ],
   "preferGlobal": "true",
   "bin": {
-    "minifly": "lib/minifly.js"
+    "minifly": "index.js"
   },
   "author": "Jubal Mabaquiao",
   "license": "MIT"

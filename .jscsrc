@@ -1,0 +1,6 @@
+{
+    "preset": "airbnb",
+    "requireCurlyBraces": null,
+    "maximumLineLength": 120,
+    "disallowMultipleVarDecl": exceptUndefined
+}
